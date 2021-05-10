@@ -94,11 +94,11 @@
 .portfolio ul li .portfolio_img img.front{display: block; z-index: 1; transform-style: preserve-3d; backface-visibility: hidden;transition: all 0.5s ease;}
 .portfolio ul li .portfolio_img span.back{display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; transform-style: preserve-3d; transform: rotateY(-180deg);backface-visibility: hidden;transition: all 0.5s ease;}
 .portfolio ul li:nth-child(1) .portfolio_img span.back{background: url(../img/thum01.jpg) center center;}
-.portfolio ul li:nth-child(2) .portfolio_img span.back{background: url(../img/thum02.jpg) center center;}
-.portfolio ul li:nth-child(3) .portfolio_img span.back{background: url(../img/thum03.jpg) center center;}
-.portfolio ul li:nth-child(4) .portfolio_img span.back{background: url(../img/thum04.jpg) center center;}
-.portfolio ul li:nth-child(5) .portfolio_img span.back{background: url(../img/thum05.jpg) center center;}
-.portfolio ul li:nth-child(6) .portfolio_img span.back{background: url(../img/thum06.jpg) center center;}
+.portfolio ul li:nth-child(2) .portfolio_img span.back{background: url(../img/thum03.jpg) center center;}
+.portfolio ul li:nth-child(3) .portfolio_img span.back{background: url(../img/thum04.jpg) center center;}
+.portfolio ul li:nth-child(4) .portfolio_img span.back{background: url(../img/thum05.jpg) center center;}
+.portfolio ul li:nth-child(5) .portfolio_img span.back{background: url(../img/thum06.jpg) center center;}
+.portfolio ul li:nth-child(6) .portfolio_img span.back{background: url(../img/thum02.jpg) center center;}
 .portfolio ul li .portfolio_img:hover img.front{transform: rotateY(180deg);}
 .portfolio ul li .portfolio_img:hover span.back{transform: rotateY(0); z-index: 1;}
 .portfolio ul li .portfolio_img span .bg{background: rgba(0,0,0,0.6); display: block; width: 100%;height: 100%; text-align: center; font-family: 'Noto Sans KR', sans-serif;}
